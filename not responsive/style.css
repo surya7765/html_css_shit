@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#navbar {
+  background-color: #333;
+  display: block;
+  color: #fff;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  overflow: hidden;
+}
+
+#brand{
+  font-size: 48pt;
+  float: left;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+}
+#brand:hover {
+  color: #cec3ec;
+  transition: 0.5s ease-in-out;
+}
+
+.container{
+  padding: 0 100px 0 100px;
+}
+
+.nav-item {
+  flex: 1;
+  float: right;
+  font-size: 25px;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 0 10px 0 10px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16pt;
+}
+
+.nav-link a:hover {
+  color: #cec3ec;
+  transition: 0.5s ease-in-out;
+}
+
+#bottom-navbar {
+  background-color: #fff;
+  display: block;
+  color: #333;
+  text-align: center;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 0px;
+  font-weight: 600;
+}
+
+.bnav-item {
+  flex: 1;
+  float: left;
+  font-size: 25px;
+  padding-left: 0px;
+}
+
+.bnav-link {
+  display: inline-block;
+  padding: 0 12px 0 12px;
+}
+
+.bnav-link a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16pt;
+}
+
+.bnav-link a:hover {
+  color: #988aba;
+  transition: 0.5s ease-in-out;
+}
+
+input[type=text] {
+  float: right;
+  border:  1.5px solid #333;
+  color: rgba(185, 185, 187, 0.89);
+  padding: 12px;
+  width: 15%;
+  margin: 20px;
+  box-shadow: 0 0 0 1px #112233;
+}
+
+#hero-section{
+  height: 70vh;
+  background-color: rgb(222, 222, 222);
+}
