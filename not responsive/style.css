@@ -6,6 +6,8 @@ body {
   padding: 0;
 }
 
+/* Navbar section CSS */
+
 #navbar {
   background-color: #333;
   display: block;
@@ -52,6 +54,8 @@ body {
   transition: 0.5s ease-in-out;
 }
 
+/* Bottom navbar section csss */
+
 #bottom-navbar {
   background-color: #fff;
   display: block;
@@ -95,6 +99,8 @@ input[type=text] {
   box-shadow: 0 0 0 1px #112233;
 }
 
+/* Hero section CSS */
+
 #hero-section{
   height: 65vh;
   background-color: rgb(222, 222, 222);
@@ -102,6 +108,7 @@ input[type=text] {
 
 .row {
   display: flex;
+  justify-content: space-around;
 }
 
 .left-column {
@@ -129,26 +136,64 @@ input[type=text] {
   color: #333;
 }
 
+/* Deal of the day CSS */
+
 .head-text{
   font-size: 30pt;
   font-family: 'Rubik', sans-serif;
+  color: #333;
   word-spacing: 2px;
 }
 .head-text::first-letter{
   font-size: 170%;
 }
 
-.d-row{
-  display: flex;
-  justify-content: space-around;
-}
-
 .col-2{
   width: 15%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.col-2 img:hover{
+  transform: scale(1.05);
+  transition-duration: 1.01s;
 }
 
 .col-2 p{
   font-size: 12pt;
   font-family: 'Rubik', sans-serif;
+}
+
+
+.fc-col-2{
+  width: 17%;
+  justify-content: center;
   text-align: center;
+  align-items: center;
+  padding-top: 5px;
+  margin: 20px 0 20px 0;
+  background-color: #dbf3fa;
+}
+
+.fc-col-2:hover{
+  transform: scale(1.05);
+  transition-duration: 1.01s;
+}
+
+.fc-col-2 p{
+  font-size: 20pt;
+  font-family: 'Rubik', sans-serif;
+}
+
+.col{
+  display: flex;
+}
+
+.ptag{
+  color: #333;
+  padding: 0 8px;
+  border-right: 1px solid #333;
+  font-size: 14pt;
+  font-family: 'Rubik',sans-serif;
 }
