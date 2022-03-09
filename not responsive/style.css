@@ -110,7 +110,7 @@ input[type=text] {
 
 .row {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .left-column {
@@ -169,18 +169,23 @@ input[type=text] {
 
 
 .fc-col-2{
-  width: 17%;
+  width: 15%;
   justify-content: center;
   text-align: center;
   align-items: center;
   padding-top: 3px;
-  margin: 20px 0 20px 0;
+  margin: 15px 0 15px 0;
   background-color: #dbf3fa;
+  height: 270px;
   object-fit: contain;
+
+}
+
+.fc-col-2 img{
   transition: transform 900ms;
 }
 
-.fc-col-2:hover{
+.fc-col-2 img:hover{
   transform: scale(1.05);
 }
 

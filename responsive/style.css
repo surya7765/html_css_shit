@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+
+
+/* start of chaning bootstrap defined classes */
+
+@font-face {
+    src: url(fonts/CognizantSans-Regular.woff2),
+          url(fonts/CognizantSans-Regular.woff);
+    font-family: 'rcognizant';
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    src: url(fonts/CognizantSans-Heavy.woff2),
+          url(fonts/CognizantSans-Heavy.woff);
+    font-family: 'hcognizant';
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    src: url(fonts/CognizantSans-Icons.woff2),
+          url(fonts/CognizantSans-Icons.woff);
+    font-family: 'Cognizant-Icons';
+    font-style: normal;
+    font-weight: 600;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1250px;
+    }
+}
+
+.material-icons{
+  line-height: unset !important;
+}
+
+/* end of chaning bootstrap defined classes */
+
+#alert-text a{
+  color: #00b140;
+  font-family: 'rcognizant',sans-serif;
+  text-decoration: none;
+}
+
+#alert-text a:hover{
+  color: #009837;
+}
+
+.navbar-brand1{
+  font-size: 16px !important;
+  color: #000 !important;
+  font-family: 'rcognizant',sans-serif;
+  font-style: normal;
+  line-height: 21px;
+}
+
+.navbar-brand1:hover{
+  color: #419B62 !important;
+}
+
+.nav-text{
+    font-size: 16px !important;
+    color: #000 !important;
+    font-family: 'rcognizant',sans-serif;
+    font-style: normal;
+    line-height: 21px;
+}
+.nav-text:hover{
+  color: #419B62 !important;
+}
+
+.add_bullet {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.nav-design a{
+  font-size: 20px;
+  font-family: 'rcognizant',sans-serif;
+  color: #000 !important;
+  padding: 1rem !important;
+  line-height: 1;
+}
+.nav-design>a::after{
+  display: none;
+}
+
+.nav-design a:hover{
+  color: #fff !important;
+  background-color: #0033A0;
+  z-index: 9999;
+  transition-duration: 0.8s;
+}
+
+.activeLink{
+  color: #fff !important;
+  text-decoration: none;
+  background-color: #0033A0;
+}
+
+span.material-icons.mx-2 {
+  padding-bottom: 3.5px;
+}
+
+
+.dropdown-item{
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'rcognizant';
+  /* word-wrap: break-all; */
+  /* overflow: hidden; */
+  overflow-wrap: break-word !important;
+
+}
+.dropdown-item:hover{
+  background-color: #002B87 !important;
+}
+
+.col-md-6.col-sm-6.col-xl-3.col-lg-3 a{
+  color: #fff !important;
+}
+
+.head-text{
+  font-size: 20px;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  font-family: 'rcognizant';
+  line-height: 26px;
+}
+
+/* hero section css */
+
+.btn{
+  border-radius: 0rem !important;
+}
+
+.btn:hover {
+  color: #fff !important;
+  transition-duration: 1s !important;
+  border-radius: 0rem !important;
+}
+
+.carousel-btn{
+  background-color:#008E33;
+  color:#fff;
+  font-size: 16px;
+  font-family: 'rcognizant';
+  font-weight: 700;
+}
+
+.career-btn{
+  background-color:#00b140;
+  color:#fff;
+  font-size: 16px;
+  font-family: 'rcognizant';
+  font-weight: 700;
+}
+
+.career-btn:hover{
+  background-color:#008E33;
+}
+
+#text-sec{
+  font-size: 36px;
+  line-height: 72px;
+  color: #0033A0;
+  font-weight: 400;
+  font-family: 'rcognizant';
+}
